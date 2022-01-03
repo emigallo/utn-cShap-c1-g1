@@ -8,6 +8,6 @@ namespace Tateti.Models
 {
     public class Turn
     {
-        public int number { get; set; }
+        public int NumberTurn { get; set; }
     }
 }

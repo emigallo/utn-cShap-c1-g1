@@ -8,6 +8,6 @@ namespace Tateti.Models
 {
     public class File
     {
-        public string type { get; set; }
+        public string Type { get; init; }
     }
 }
