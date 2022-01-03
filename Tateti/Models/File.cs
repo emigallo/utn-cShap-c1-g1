@@ -9,5 +9,10 @@ namespace Tateti.Models
     public class File
     {
         public string Type { get; init; }
+
+        public File(string type)
+        {
+            this.Type = type;
+        }
     }
 }
