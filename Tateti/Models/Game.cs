@@ -8,16 +8,21 @@ namespace Tateti.Models
 {
     public class Game
     {
-        private Boart _boart;
-        private File _file;
+        private Boart _boart;     
         private User _user1;
         private User _user2;
-        private Turn _turn;
 
         public Game()
         {
-            
+            this._boart = new Boart();
+            this._user1 = new User(1);
+            this._user2 = new User(2);
         }
 
+        public void AddUser(string name)
+        {
+            _user1.Name = name;
+        }
+        
     }
 }

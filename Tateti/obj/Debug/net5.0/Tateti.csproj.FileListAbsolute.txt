@@ -1,0 +1,12 @@
+C:\Users\faaparic\source\repos\TatetiProject\Tateti\bin\Debug\net5.0\Tateti.deps.json
+C:\Users\faaparic\source\repos\TatetiProject\Tateti\bin\Debug\net5.0\Tateti.dll
+C:\Users\faaparic\source\repos\TatetiProject\Tateti\bin\Debug\net5.0\ref\Tateti.dll
+C:\Users\faaparic\source\repos\TatetiProject\Tateti\bin\Debug\net5.0\Tateti.pdb
+C:\Users\faaparic\source\repos\TatetiProject\Tateti\obj\Debug\net5.0\Tateti.csproj.AssemblyReference.cache
+C:\Users\faaparic\source\repos\TatetiProject\Tateti\obj\Debug\net5.0\Tateti.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\faaparic\source\repos\TatetiProject\Tateti\obj\Debug\net5.0\Tateti.AssemblyInfoInputs.cache
+C:\Users\faaparic\source\repos\TatetiProject\Tateti\obj\Debug\net5.0\Tateti.AssemblyInfo.cs
+C:\Users\faaparic\source\repos\TatetiProject\Tateti\obj\Debug\net5.0\Tateti.csproj.CoreCompileInputs.cache
+C:\Users\faaparic\source\repos\TatetiProject\Tateti\obj\Debug\net5.0\Tateti.dll
+C:\Users\faaparic\source\repos\TatetiProject\Tateti\obj\Debug\net5.0\ref\Tateti.dll
+C:\Users\faaparic\source\repos\TatetiProject\Tateti\obj\Debug\net5.0\Tateti.pdb

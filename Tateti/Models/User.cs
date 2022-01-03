@@ -8,9 +8,16 @@ namespace Tateti.Models
 {
     public class User
     {
-        public int Id { get; set; }
+        public int Id { get; init; }
         public string Name { get; set; }
-        public File File { get; set; }
+        public File File { get; init; }
+
+        public User(int id)
+        {
+            this.Id = id;
+            this.File = new File(id);
+        }
+
 
     }
 }
