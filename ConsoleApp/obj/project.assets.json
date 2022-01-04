@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tomameri\\OneDrive - NTT DATA EMEAL\\Escritorio\\Nueva carpeta\\TatetiProject\\ConsoleApp\\ConsoleApp.csproj",
+      "projectUniqueName": "C:\\Users\\tomameri\\OneDrive - NTT DATA EMEAL\\Escritorio\\Tateti\\TatetiProject\\ConsoleApp\\ConsoleApp.csproj",
       "projectName": "ConsoleApp",
-      "projectPath": "C:\\Users\\tomameri\\OneDrive - NTT DATA EMEAL\\Escritorio\\Nueva carpeta\\TatetiProject\\ConsoleApp\\ConsoleApp.csproj",
+      "projectPath": "C:\\Users\\tomameri\\OneDrive - NTT DATA EMEAL\\Escritorio\\Tateti\\TatetiProject\\ConsoleApp\\ConsoleApp.csproj",
       "packagesPath": "C:\\Users\\tomameri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tomameri\\OneDrive - NTT DATA EMEAL\\Escritorio\\Nueva carpeta\\TatetiProject\\ConsoleApp\\obj\\",
+      "outputPath": "C:\\Users\\tomameri\\OneDrive - NTT DATA EMEAL\\Escritorio\\Tateti\\TatetiProject\\ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tomameri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\tomameri\\OneDrive - NTT DATA EMEAL\\Escritorio\\Nueva carpeta\\TatetiProject\\Tateti\\Tateti.csproj": {
-              "projectPath": "C:\\Users\\tomameri\\OneDrive - NTT DATA EMEAL\\Escritorio\\Nueva carpeta\\TatetiProject\\Tateti\\Tateti.csproj"
+            "C:\\Users\\tomameri\\OneDrive - NTT DATA EMEAL\\Escritorio\\Tateti\\TatetiProject\\Tateti\\Tateti.csproj": {
+              "projectPath": "C:\\Users\\tomameri\\OneDrive - NTT DATA EMEAL\\Escritorio\\Tateti\\TatetiProject\\Tateti\\Tateti.csproj"
             }
           }
         }

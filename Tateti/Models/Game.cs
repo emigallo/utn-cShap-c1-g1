@@ -27,18 +27,26 @@ namespace Tateti.Models
                 _user2.Name = name;
         }
 
-        public void UserTurn()
+        public File UserTurn()
         {
             if ((this._boart.GetTurn() % 2) == 1)
             {
+                return _user1.File;
                 //user 1 turno
                 //le envia la file
             }
             else
             {
                 //turno user 2
+                return _user2.File;
             }
-
         }        
+        public void GameState()
+        {
+            if(this._boart.GetTurn() > 9)
+            {
+                //empate
+            }                
+        }
     }
 }

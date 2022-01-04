@@ -16,10 +16,11 @@ namespace ConsoleApp
             Boart boar = new Boart();
             File file = new File(1);
             File file2 = new File(2);
-            boar.Add(file, 3);
+            boar.Add(file, 0);
             boar.Add(file2, 4);
-            boar.Add(file, 5);
+            boar.Add(file, 1);
             boar.Add(file2, 6);
+            boar.Add(file, 2);
 
             foreach (var item in boar.GetPosition())
             {
@@ -31,6 +32,7 @@ namespace ConsoleApp
                 }
                 
             }
+            Console.WriteLine(boar.Win());
     }
     }
 }
