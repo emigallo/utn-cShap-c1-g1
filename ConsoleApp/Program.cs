@@ -32,7 +32,7 @@ namespace ConsoleApp
                 }
                 
             }
-            Console.WriteLine(boar.Win());
+            Console.WriteLine(boar.Winner().Type + " gano");
     }
     }
 }
