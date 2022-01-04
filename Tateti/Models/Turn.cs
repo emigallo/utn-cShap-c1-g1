@@ -12,12 +12,17 @@ namespace Tateti.Models
 
         public Turn()
         {
-            this.NumberTurn = 0;
+            this.NumberTurn = 1;
         }
 
         public void NextTurn()
         {
             this.NumberTurn = NumberTurn + 1;
+        }
+
+        public int GetNumberTurn()
+        {
+            return this.NumberTurn;
         }
     }
 }

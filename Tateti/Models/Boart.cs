@@ -10,22 +10,37 @@ namespace Tateti.Models
     {
         //matriz de 9 posiciones para el tablero
         private File[] _position;
-        private Turn _turn;
+        private int _turn;
         public Boart()
         {
-            _turn = new Turn();
+            _turn = 1;
             _position = new File[9];
+
         }
 
         public File[] GetPosition()
         {
             return _position;
         }
-        public void Add()
+        public bool Add(File file, int site)
         {
             //usuario ingresa "X"
-            
-            _turn.NextTurn();
+            if(_position[site] == null)
+            {
+                _position[site] = file;
+                _turn = _turn + 1;
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
+        public int GetTurn()
+        {
+            return _turn;
+        }
+
+
     }
 }

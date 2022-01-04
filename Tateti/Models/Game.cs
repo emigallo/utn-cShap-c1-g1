@@ -8,7 +8,7 @@ namespace Tateti.Models
 {
     public class Game
     {
-        private Boart _boart;     
+        public  Boart _boart;     
         private User _user1;
         private User _user2;
 
@@ -19,10 +19,26 @@ namespace Tateti.Models
             this._user2 = new User(2);
         }
 
-        public void AddUser(string name)
+        public void AddUser(string name,int id)
         {
-            _user1.Name = name;
+            if(id==1)
+                _user1.Name = name;
+            if(id==2)  
+                _user2.Name = name;
         }
-        
+
+        public void UserTurn()
+        {
+            if ((this._boart.GetTurn() % 2) == 1)
+            {
+                //user 1 turno
+                //le envia la file
+            }
+            else
+            {
+                //turno user 2
+            }
+
+        }        
     }
 }

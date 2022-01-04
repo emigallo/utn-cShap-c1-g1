@@ -7,13 +7,30 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            User _user1 = new User(2);
+            
             Game game = new Game();
-            string type = _user1.File.Type;
+            game.AddUser("T", 1);
+            game.AddUser("F", 2);
+            //game._boart.Add()
 
-            game.AddUser("lucas");
+            Boart boar = new Boart();
+            File file = new File(1);
+            File file2 = new File(2);
+            boar.Add(file, 3);
+            boar.Add(file2, 4);
+            boar.Add(file, 5);
+            boar.Add(file2, 6);
 
-            Console.WriteLine(type);
+            foreach (var item in boar.GetPosition())
+            {
+                if (item == null)
+                    Console.WriteLine("null");
+                else
+                {
+                    Console.WriteLine(item.Type);
+                }
+                
+            }
     }
     }
 }
