@@ -21,8 +21,6 @@ namespace Tateti.Models
                 this.Type = "O";
             }
             
-        }
-
-        
+        }      
     }
 }

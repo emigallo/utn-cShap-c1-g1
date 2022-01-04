@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\faaparic\\.nuget\\packages\\": {}
+    "C:\\Users\\facu1\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\faaparic\\source\\repos\\TatetiProject\\ConsoleApp\\ConsoleApp.csproj",
+      "projectUniqueName": "I:\\Trabajo\\Codigo_Csharp\\TatetiProject\\ConsoleApp\\ConsoleApp.csproj",
       "projectName": "ConsoleApp",
-      "projectPath": "C:\\Users\\faaparic\\source\\repos\\TatetiProject\\ConsoleApp\\ConsoleApp.csproj",
-      "packagesPath": "C:\\Users\\faaparic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\faaparic\\source\\repos\\TatetiProject\\ConsoleApp\\obj\\",
+      "projectPath": "I:\\Trabajo\\Codigo_Csharp\\TatetiProject\\ConsoleApp\\ConsoleApp.csproj",
+      "packagesPath": "C:\\Users\\facu1\\.nuget\\packages\\",
+      "outputPath": "I:\\Trabajo\\Codigo_Csharp\\TatetiProject\\ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\faaparic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\facu1\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -53,8 +53,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\faaparic\\source\\repos\\TatetiProject\\Tateti\\Tateti.csproj": {
-              "projectPath": "C:\\Users\\faaparic\\source\\repos\\TatetiProject\\Tateti\\Tateti.csproj"
+            "I:\\Trabajo\\Codigo_Csharp\\TatetiProject\\Tateti\\Tateti.csproj": {
+              "projectPath": "I:\\Trabajo\\Codigo_Csharp\\TatetiProject\\Tateti\\Tateti.csproj"
             }
           }
         }
