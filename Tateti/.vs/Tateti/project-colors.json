@@ -5,7 +5,12 @@
       "ProjectGuid": "83c395f9-2065-4953-b583-da01f8a49afe",
       "DisplayName": "Tateti",
       "ColorIndex": 0
+    },
+    "ede68fd0-c36a-4c9d-a3a5-bbd5d53eae2e": {
+      "ProjectGuid": "ede68fd0-c36a-4c9d-a3a5-bbd5d53eae2e",
+      "DisplayName": "ConsoleApp",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }

@@ -41,12 +41,13 @@ namespace Tateti.Models
                 return _user2.File;
             }
         }        
-        public void GameState()
+        public bool GameState()
         {
             if(this._boart.GetTurn() > 9)
             {
-                //empate
-            }                
+                return true;
+            }else
+                return false;
         }
     }
 }

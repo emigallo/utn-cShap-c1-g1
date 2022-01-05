@@ -9,7 +9,7 @@ namespace Tateti.Models
     public class File
     {
         public string Type { get; init; }
-
+        //Puede ser un Enum 
         public File(int id)
         {
             if(id == 1)
@@ -19,8 +19,7 @@ namespace Tateti.Models
             if (id == 2)
             {
                 this.Type = "O";
-            }
-            
+            }            
         }        
     }
 }
