@@ -57,7 +57,7 @@ namespace Tateti.Models
         }
         public File WinnerByRow()
         {
-
+            //usar un solo for
             for (int i = 0; i < _position.GetLength(0); i++)
             {
                 for (int j = 0; j < 1; j++)
@@ -75,6 +75,8 @@ namespace Tateti.Models
 
         public File WinnerByCol()
         {
+            //usar un solo for
+
             for (int i = 0; i < 1; i++)
             {
                 for (int j = 0; j < _position.GetLength(1); j++)
