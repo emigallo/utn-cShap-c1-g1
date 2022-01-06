@@ -30,28 +30,7 @@ namespace ConsoleApp
             {
                 game.AddFile(game.UserTurn(), x.Next(0, 3), x.Next(0, 3));
             }
-            //game.AddFile(game.UserTurn(), 0, 0);
-            //game.AddFile(game.UserTurn(), 0, 1);
-            //game.AddFile(game.UserTurn(), 0, 2);
-            //game.AddFile(game.UserTurn(), 1, 0);
-            //game.AddFile(game.UserTurn(), 1, 1);
-            //game.AddFile(game.UserTurn(), 1, 2);
-            //game.AddFile(game.UserTurn(), 2, 0);
-            //game.AddFile(game.UserTurn(), 2, 1);
-            //game.AddFile(game.UserTurn(), 2, 2);
-
-
-
-
-
-            //Random x = new Random();
-            //for (int i = 0; i < game.GetBoart().GetPosition().GetLength(0); i++)
-            //{
-            //    for (int j = 0; j < 3; j++)
-            //    {
-            //        game.GetBoart().Add(new File(x.Next(1, 3)), i, j);
-            //    }
-            //}
+           
             var boart = game.GetBoart().GetPosition();
             for (int i = 0; i < game.GetBoart().GetPosition().GetLength(0); i++)
             {
