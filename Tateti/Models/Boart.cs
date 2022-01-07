@@ -11,7 +11,7 @@ namespace Tateti.Models
         //matriz de 9 posiciones para el tablero
         private File[,] _position;
         private int _turn;
-
+        //llenar el tablero
         public Boart()
         {
             _turn = 1;
@@ -25,6 +25,7 @@ namespace Tateti.Models
         }
         public bool Add(File file, int NRow, int NCol)
         {
+            //validacion de las filas y col
             //usuario ingresa "X"
             if (_position[NRow, NCol] == null)
             {

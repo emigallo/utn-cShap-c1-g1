@@ -35,7 +35,7 @@ namespace Tateti.Models
         {
             this._boart.Add(file, NRow, NCol);
         }
-
+        //hacer dos add
         public void AddUser(string name,int id)
         {
             if(id==1)

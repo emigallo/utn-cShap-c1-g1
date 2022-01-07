@@ -23,7 +23,7 @@ namespace GUI.View
         {
             InitializeComponent();
         }
-
+        new Label
         private void NewGamebutton_click(object sender, RoutedEventArgs e)
         {
             //add de los user
