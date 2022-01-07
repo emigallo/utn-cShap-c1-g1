@@ -5,11 +5,17 @@
              StartupUri="View/Main.xaml">
     <Application.Resources>
         <ResourceDictionary>
-            <Style TargetType="Button" x:Key="StandarButton">
+            <Style TargetType="ContentControl" x:Key="StandarFondFamily">
                 <Setter Property="FontFamily" Value="Comic Sans MS"></Setter>
             </Style>
-            <Style TargetType="Label" x:Key="StandarLabel">
+            <Style TargetType="Button" x:Key="StandarButton" BasedOn="{StaticResource StandarFondFamily}">
+                <Setter Property="Foreground" Value="Black"></Setter>
+
+            </Style>
+            <Style TargetType="Label" x:Key="StandarLabel" BasedOn="{StaticResource StandarFondFamily}">
+                <Setter Property="Foreground" Value="Black"></Setter>
                 <Setter Property="FontFamily" Value="Comic Sans MS"></Setter>
+
             </Style>
             
         </ResourceDictionary>
