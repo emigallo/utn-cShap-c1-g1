@@ -8,19 +8,19 @@ namespace Tateti.Models
 {
     public class Game
     {
-        private  Boart _boart;     
+        private  Board _board;     
         private User _user1;
         private User _user2;
 
         public Game()
         {
-            this._boart = new Boart();
+            this._board = new Board();
             this._user1 = new User(1);
             this._user2 = new User(2);
         }
-        public Boart GetBoart()
+        public Board GetBoard()
         {
-            return this._boart;
+            return this._board;
         }
         public User GetUser1()
         {
@@ -33,7 +33,7 @@ namespace Tateti.Models
 
         public void AddFile(File file, int NRow, int NCol)
         {
-            this._boart.Add(file, NRow, NCol);
+            this._board.Add(file, NRow, NCol);
         }
         //hacer dos add
         public void AddUser(string name,int id)
@@ -46,7 +46,7 @@ namespace Tateti.Models
 
         public File UserTurn()
         {
-            if ((this._boart.GetTurn() % 2) == 1)
+            if ((this._board.GetTurn() % 2) == 1)
             {
                 return _user1.File;
                 //user 1 turno
@@ -60,7 +60,7 @@ namespace Tateti.Models
         }        
         public bool GameState()
         {
-            if(this._boart.GetTurn() > 9)
+            if(this._board.GetTurn() > 9)
             {
                 return true;
             }else

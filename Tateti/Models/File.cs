@@ -20,5 +20,9 @@ namespace Tateti.Models
                 this.Type = "O";
             }            
         }        
+        public File (string type)
+        {
+            this.Type=type;
+        }
     }
 }
