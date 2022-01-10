@@ -35,12 +35,11 @@ namespace Tateti.Models
         {
             this._board.Add(file, NRow, NCol);
         }
-        //hacer dos add
-        public void AddUser1(string name, int id)
+        public void AddUser1(string name)
         {
             _user1.Name = name;
         }
-        public void AddUser2(string name, int id)
+        public void AddUser2(string name)
         {
             _user2.Name = name;
         }

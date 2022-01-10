@@ -8,7 +8,6 @@ namespace Tateti.Models
 {
     public class Board
     {
-        //matriz de 9 posiciones para el tablero
         private File[,] _position;
         private int _turn;
         public Board()

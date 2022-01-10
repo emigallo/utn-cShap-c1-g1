@@ -14,10 +14,10 @@ namespace ConsoleApp
             Game game = new Game();
             Console.WriteLine("Ingrese jugador 1");
             string nam1 = Console.ReadLine();
-            game.AddUser(nam1, 1);
+            game.AddUser1(nam1);
             Console.WriteLine("Ingrese jugador 2");
             string nam2 = Console.ReadLine();
-            game.AddUser(nam2, 2);
+            game.AddUser2(nam2);
             Console.WriteLine("Enter para comenzar partida");
             Console.ReadKey(true);
             Console.Clear();
