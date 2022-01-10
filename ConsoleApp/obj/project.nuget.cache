@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8u1SJ4+HPUlyPU1AFKolCSLHvv3GZdJn3Iiu8DLc7XdhnA0/HlueluVa/FxYkfowRafsI1rjz4UpZcId1hwtbw==",
+  "dgSpecHash": "i85BGcj1nJ29iyws7eofBAfQ5gY+wuWwsU24b6WIawNEaI2rUcBC9EsEpoKRq88WDpIlCsf8DxLmV1x5ly2rNQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tomameri\\OneDrive - NTT DATA EMEAL\\Escritorio\\Tateti\\TatetiProject\\ConsoleApp\\ConsoleApp.csproj",
+  "projectFilePath": "C:\\Users\\gabi\\Desktop\\asdddd\\TatetiProject-main\\ConsoleApp\\ConsoleApp.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Users\\tomameri\\OneDrive - NTT DATA EMEAL\\Escritorio\\Tateti\\TatetiProject\\ConsoleApp\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

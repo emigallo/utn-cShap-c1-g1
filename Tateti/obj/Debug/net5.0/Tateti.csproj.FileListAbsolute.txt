@@ -34,3 +34,15 @@ C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\Tate
 C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\Tateti\obj\Debug\net5.0\Tateti.dll
 C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\Tateti\obj\Debug\net5.0\ref\Tateti.dll
 C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\Tateti\obj\Debug\net5.0\Tateti.pdb
+C:\Users\gabi\Desktop\asdddd\TatetiProject-main\Tateti\bin\Debug\net5.0\Tateti.deps.json
+C:\Users\gabi\Desktop\asdddd\TatetiProject-main\Tateti\bin\Debug\net5.0\Tateti.dll
+C:\Users\gabi\Desktop\asdddd\TatetiProject-main\Tateti\bin\Debug\net5.0\ref\Tateti.dll
+C:\Users\gabi\Desktop\asdddd\TatetiProject-main\Tateti\bin\Debug\net5.0\Tateti.pdb
+C:\Users\gabi\Desktop\asdddd\TatetiProject-main\Tateti\obj\Debug\net5.0\Tateti.csproj.AssemblyReference.cache
+C:\Users\gabi\Desktop\asdddd\TatetiProject-main\Tateti\obj\Debug\net5.0\Tateti.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabi\Desktop\asdddd\TatetiProject-main\Tateti\obj\Debug\net5.0\Tateti.AssemblyInfoInputs.cache
+C:\Users\gabi\Desktop\asdddd\TatetiProject-main\Tateti\obj\Debug\net5.0\Tateti.AssemblyInfo.cs
+C:\Users\gabi\Desktop\asdddd\TatetiProject-main\Tateti\obj\Debug\net5.0\Tateti.csproj.CoreCompileInputs.cache
+C:\Users\gabi\Desktop\asdddd\TatetiProject-main\Tateti\obj\Debug\net5.0\Tateti.dll
+C:\Users\gabi\Desktop\asdddd\TatetiProject-main\Tateti\obj\Debug\net5.0\ref\Tateti.dll
+C:\Users\gabi\Desktop\asdddd\TatetiProject-main\Tateti\obj\Debug\net5.0\Tateti.pdb

@@ -6,38 +6,66 @@
         xmlns:local="clr-namespace:GUI.View"
         mc:Ignorable="d"
         Title="Main" Height="450" Width="800">
+
     <Grid>
         <Grid.Background>
-            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="#FFC87E11" Offset="0.2"/>
-                <GradientStop Color="White" Offset="1"/>
-            </LinearGradientBrush>
+            <ImageBrush ImageSource="/View/bg.png"/>
         </Grid.Background>
+
         <Grid.RowDefinitions>
-            <RowDefinition Height="auto"/>
-            <RowDefinition/>
             <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+
+
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
+            <ColumnDefinition />
+            <ColumnDefinition />
         </Grid.ColumnDefinitions>
 
-        <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Label FontSize="70" Style="{StaticResource StandarLabel}">TATETI</Label>
+        <StackPanel Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="257,0,0,0" Height="108" Width="286"/>
+
+        <StackPanel Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,4,0,0" Height="48" Width="170" Grid.RowSpan="2" >
+            <TextBox x:Name="txtUser1" BorderBrush="{x:Null}" RenderTransformOrigin="0.404,6.5" Height="48" Width="170" FontSize="24" FontWeight="Bold" FontFamily="Comic Sans MS" >
+                <TextBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="0"/>
+                        <RotateTransform/>
+                        <TranslateTransform X="0"/>
+                    </TransformGroup>
+                </TextBox.RenderTransform>
+            </TextBox>
+
         </StackPanel>
 
-        <StackPanel Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" >
-            <Label Style="{StaticResource StandarLabel}">Ingrese nombre del jugador 1</Label>
-            <TextBox x:Name="txtUser1" BorderBrush="{x:Null}" />
 
+        <StackPanel Grid.Row="7" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,4,0,0" Height="48" Width="170" Grid.RowSpan="2">
+            <TextBox x:Name="txtUser2" BorderBrush="{x:Null}" Width="178" Height="45" RenderTransformOrigin="0.5,0.5" FontSize="24" FontFamily="Comic Sans MS" FontWeight="Bold">
+                <TextBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.167"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TextBox.RenderTransform>
+            </TextBox>
         </StackPanel>
-
-        <StackPanel Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Label Style="{StaticResource StandarLabel}">Ingrese nombre del jugador 2</Label>
-            <TextBox x:Name="txtUser2" BorderBrush="{x:Null}"/>
-        </StackPanel>
-
-        <Button Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" FontFamily="Comic Sans MS" FontSize="40" Content="Iniciar juego"  Click="NewGamebutton_click"   HorizontalAlignment="Center" VerticalAlignment="Center" Height="100" Width="250" Style="{StaticResource StandarButton}" Background="{x:Null}" BorderThickness="1,1,1,1" BorderBrush="{x:Null}"/>
+        <Button x:Name="Play" Grid.Row="9" Grid.Column="0" Content="" Click="NewGamebutton_click"   HorizontalAlignment="Left" VerticalAlignment="Top" Height="100" Width="286" Style="{StaticResource StandarButton}" BorderThickness="1,1,1,1" BorderBrush="{x:Null}" Margin="236,8,0,0" Grid.RowSpan="3" Grid.ColumnSpan="2">
+            <Button.Background>
+                <ImageBrush ImageSource="/View/PLAY.PNG"/>
+            </Button.Background>
+        </Button>
     </Grid>
 </Window>
