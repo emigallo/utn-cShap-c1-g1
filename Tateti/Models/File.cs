@@ -9,20 +9,21 @@ namespace Tateti.Models
     public class File
     {
         public string Type { get; init; }
-        public File(int id)
+        public static string EmptyFile
         {
-            if(id == 1)
-            {
-                this.Type = "X";
-            }
-            if (id == 2)
-            {
-                this.Type = "O";
-            }            
-        }        
-        public File (string type)
+            get { return "-"; }
+        }
+        public static string User1File
         {
-            this.Type=type;
+            get { return "X"; }
+        }
+        public static string User2File
+        {
+            get { return "O"; }
+        }
+        public File(string type)
+        {
+            this.Type = type;
         }
     }
 }

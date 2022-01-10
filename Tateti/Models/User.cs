@@ -13,10 +13,10 @@ namespace Tateti.Models
         public File File { get; init; }
         //public Turn Turn { get; set;}
 
-        public User(int id)
+        public User(int id, string type)
         {
             this.Id = id;
-            this.File = new File(id);
+            this.File = new File(type);
         }
 
     }
