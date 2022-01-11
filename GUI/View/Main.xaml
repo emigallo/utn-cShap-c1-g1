@@ -46,7 +46,6 @@
                     </TransformGroup>
                 </TextBox.RenderTransform>
             </TextBox>
-
         </StackPanel>
 
 

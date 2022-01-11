@@ -46,3 +46,15 @@ C:\Users\gabi\Desktop\asdddd\TatetiProject-main\Tateti\obj\Debug\net5.0\Tateti.c
 C:\Users\gabi\Desktop\asdddd\TatetiProject-main\Tateti\obj\Debug\net5.0\Tateti.dll
 C:\Users\gabi\Desktop\asdddd\TatetiProject-main\Tateti\obj\Debug\net5.0\ref\Tateti.dll
 C:\Users\gabi\Desktop\asdddd\TatetiProject-main\Tateti\obj\Debug\net5.0\Tateti.pdb
+I:\Trabajo\Codigo_Csharp\TatetiProject\Tateti\bin\Debug\net5.0\Tateti.deps.json
+I:\Trabajo\Codigo_Csharp\TatetiProject\Tateti\bin\Debug\net5.0\Tateti.dll
+I:\Trabajo\Codigo_Csharp\TatetiProject\Tateti\bin\Debug\net5.0\ref\Tateti.dll
+I:\Trabajo\Codigo_Csharp\TatetiProject\Tateti\bin\Debug\net5.0\Tateti.pdb
+I:\Trabajo\Codigo_Csharp\TatetiProject\Tateti\obj\Debug\net5.0\Tateti.csproj.AssemblyReference.cache
+I:\Trabajo\Codigo_Csharp\TatetiProject\Tateti\obj\Debug\net5.0\Tateti.GeneratedMSBuildEditorConfig.editorconfig
+I:\Trabajo\Codigo_Csharp\TatetiProject\Tateti\obj\Debug\net5.0\Tateti.AssemblyInfoInputs.cache
+I:\Trabajo\Codigo_Csharp\TatetiProject\Tateti\obj\Debug\net5.0\Tateti.AssemblyInfo.cs
+I:\Trabajo\Codigo_Csharp\TatetiProject\Tateti\obj\Debug\net5.0\Tateti.csproj.CoreCompileInputs.cache
+I:\Trabajo\Codigo_Csharp\TatetiProject\Tateti\obj\Debug\net5.0\Tateti.dll
+I:\Trabajo\Codigo_Csharp\TatetiProject\Tateti\obj\Debug\net5.0\ref\Tateti.dll
+I:\Trabajo\Codigo_Csharp\TatetiProject\Tateti\obj\Debug\net5.0\Tateti.pdb

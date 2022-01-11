@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GUI.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +12,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Tateti.Models;
 
 namespace GUI.View
 {
@@ -19,10 +21,21 @@ namespace GUI.View
     /// </summary>
     public partial class GameTateti : Window
     {
-        public GameTateti()
+        GameTatetiViewModels _game;
+        public GameTateti(GameTatetiViewModels game)
         {
             InitializeComponent();
+            this._game = game;
+            AddName();
         }
+
+        public void AddName()
+        {
+            lblUser1.Content = _game.GetUser1().Name;
+            lblUser2.Content = _game.GetUser2().Name;
+        }
+
+
 
        
     }
