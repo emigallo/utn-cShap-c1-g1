@@ -31,9 +31,9 @@ namespace Tateti.Models
             return this._user2;
         }
 
-        public void AddFile(File file, int NRow, int NCol)
+        public bool AddFile(File file, int NRow, int NCol)
         {
-            this._board.Add(file, NRow, NCol);
+            return this._board.Add(file, NRow, NCol);
         }
         public void AddUser1(string name)
         {

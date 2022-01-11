@@ -9,7 +9,7 @@ namespace GUI.ViewModels
 {
     public class GameTatetiViewModels
     {
-        private Game _game;
+        private Game _game;       
 
         public GameTatetiViewModels()
         {
@@ -31,6 +31,21 @@ namespace GUI.ViewModels
         {
             return this._game.GetUser2();
         }
-
+        public bool AddFile(File file, int NRow, int NCol)
+        {
+            return this._game.GetBoard().Add(file, NRow, NCol);
+        }
+        public File UserTurn()
+        {
+            return this._game.UserTurn();
+        }
+        public File GetWinner()
+        {
+            return this._game.GetBoard().GetWinner();
+        }
+        public bool GameState()
+        {
+            return this._game.GameState();
+        }
     }
 }

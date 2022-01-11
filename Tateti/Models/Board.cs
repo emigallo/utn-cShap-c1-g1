@@ -65,7 +65,7 @@ namespace Tateti.Models
         {
             for (int i = 0; i < _position.GetLength(0); i++)
             {
-                if ((_position[i, 0].Type == _position[i, 1].Type) && _position[i, 2].Type == _position[i, 0].Type)
+                if ((_position[i,0].Type != File.EmptyFile) && (_position[i, 0].Type == _position[i, 1].Type) && _position[i, 2].Type == _position[i, 0].Type)
                     return _position[i, 0];
             }
             return null;
@@ -74,17 +74,17 @@ namespace Tateti.Models
         {
             for (int j = 0; j < _position.GetLength(1); j++)
             {
-                if ((_position[0, j].Type == _position[1, j].Type) && _position[2, j].Type == _position[0, j].Type)
+                if ((_position[0, j].Type != File.EmptyFile) && (_position[0, j].Type == _position[1, j].Type) && _position[2, j].Type == _position[0, j].Type)
                     return _position[0, j];
             }
             return null;
         }
         public File WinnerByDig()
         {
-            if ((_position[0, 0].Type == _position[1, 1].Type) && _position[2, 2].Type == _position[0, 0].Type)
+            if ((_position[0, 0].Type != File.EmptyFile) &&  (_position[0, 0].Type == _position[1, 1].Type) && _position[2, 2].Type == _position[0, 0].Type)
                 return _position[0, 0];
 
-            if ((_position[0, 2].Type == _position[1, 1].Type) && _position[2, 0].Type == _position[0, 2].Type)
+            if ((_position[0, 2].Type != File.EmptyFile) && (_position[0, 2].Type == _position[1, 1].Type) && _position[2, 0].Type == _position[0, 2].Type)
                 return _position[0, 2];
             return null;
         }
