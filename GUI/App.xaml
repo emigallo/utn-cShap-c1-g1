@@ -43,6 +43,20 @@
                 <Setter Property="Margin" Value="236,8,0,0"></Setter>
                 <Setter Property="Height" Value="100"></Setter>
                 <Setter Property="Width" Value="286"></Setter>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Grid Background="{TemplateBinding Background}">
+                                <ContentPresenter />
+                            </Grid>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+                <!--<Setter Property="Background">
+                    <Setter.Value>
+                        <ImageBrush ImageSource="/GUI;content/ViewResource/ButtonJugar.PNG"/>
+                    </Setter.Value>
+                </Setter>-->
             </Style>
             <Style TargetType="Button" x:Key="StandarMainMenuButton" >
                 <Setter Property="FontFamily" Value="Comic Sans MS"></Setter>
@@ -52,6 +66,15 @@
                 <Setter Property="VerticalAlignment" Value="Center"></Setter>
                 <Setter Property="BorderBrush" Value="Black"></Setter>
                 <Setter Property="Content" Value="Menu principal"></Setter>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Grid Background="{TemplateBinding Background}">
+                                <ContentPresenter />
+                            </Grid>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
             </Style>
         </ResourceDictionary>
     </Application.Resources>

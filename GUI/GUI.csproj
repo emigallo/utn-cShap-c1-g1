@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="ButtonJugar.PNG" />
     <None Remove="View\BackgroundGame.PNG" />
     <None Remove="View\BackgroundMain.png" />
     <None Remove="View\bg.png" />
@@ -24,10 +25,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Page Include="App.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Tateti\Tateti.csproj" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="ButtonJugar.PNG" />
     <Resource Include="View\BackgroundGame.PNG" />
     <Resource Include="View\BackgroundMain.png" />
     <Resource Include="View\ButtonJugar.PNG" />
