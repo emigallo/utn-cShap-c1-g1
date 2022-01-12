@@ -8,8 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="View\BackgroundGame.PNG" />
+    <None Remove="View\BackgroundMain.png" />
     <None Remove="View\bg.png" />
     <None Remove="View\BotonPj.PNG" />
+    <None Remove="View\ButtonJugar.PNG" />
+    <None Remove="View\ButtonPj1.PNG" />
+    <None Remove="View\ButtonPj2.PNG" />
     <None Remove="View\PLAY.PNG" />
   </ItemGroup>
 
@@ -20,6 +25,14 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Tateti\Tateti.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="View\BackgroundGame.PNG" />
+    <Resource Include="View\BackgroundMain.png" />
+    <Resource Include="View\ButtonJugar.PNG" />
+    <Resource Include="View\ButtonPj1.PNG" />
+    <Resource Include="View\ButtonPj2.PNG" />
   </ItemGroup>
 
 </Project>
