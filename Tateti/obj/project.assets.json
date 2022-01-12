@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\facu1\\.nuget\\packages\\": {}
+    "C:\\Users\\tomameri\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\Trabajo\\Codigo_Csharp\\TatetiProject\\Tateti\\Tateti.csproj",
+      "projectUniqueName": "C:\\Users\\tomameri\\OneDrive - NTT DATA EMEAL\\Escritorio\\Tateti\\TatetiProject\\Tateti\\Tateti.csproj",
       "projectName": "Tateti",
-      "projectPath": "I:\\Trabajo\\Codigo_Csharp\\TatetiProject\\Tateti\\Tateti.csproj",
-      "packagesPath": "C:\\Users\\facu1\\.nuget\\packages\\",
-      "outputPath": "I:\\Trabajo\\Codigo_Csharp\\TatetiProject\\Tateti\\obj\\",
+      "projectPath": "C:\\Users\\tomameri\\OneDrive - NTT DATA EMEAL\\Escritorio\\Tateti\\TatetiProject\\Tateti\\Tateti.csproj",
+      "packagesPath": "C:\\Users\\tomameri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tomameri\\OneDrive - NTT DATA EMEAL\\Escritorio\\Tateti\\TatetiProject\\Tateti\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\facu1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tomameri\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

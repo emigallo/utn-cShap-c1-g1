@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\facu1\\.nuget\\packages\\": {}
+    "C:\\Users\\tomameri\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\Trabajo\\Codigo_Csharp\\TatetiProject\\ConsoleApp\\ConsoleApp.csproj",
+      "projectUniqueName": "C:\\Users\\tomameri\\OneDrive - NTT DATA EMEAL\\Escritorio\\Tateti\\TatetiProject\\ConsoleApp\\ConsoleApp.csproj",
       "projectName": "ConsoleApp",
-      "projectPath": "I:\\Trabajo\\Codigo_Csharp\\TatetiProject\\ConsoleApp\\ConsoleApp.csproj",
-      "packagesPath": "C:\\Users\\facu1\\.nuget\\packages\\",
-      "outputPath": "I:\\Trabajo\\Codigo_Csharp\\TatetiProject\\ConsoleApp\\obj\\",
+      "projectPath": "C:\\Users\\tomameri\\OneDrive - NTT DATA EMEAL\\Escritorio\\Tateti\\TatetiProject\\ConsoleApp\\ConsoleApp.csproj",
+      "packagesPath": "C:\\Users\\tomameri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tomameri\\OneDrive - NTT DATA EMEAL\\Escritorio\\Tateti\\TatetiProject\\ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\facu1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tomameri\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -53,8 +53,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "I:\\Trabajo\\Codigo_Csharp\\TatetiProject\\Tateti\\Tateti.csproj": {
-              "projectPath": "I:\\Trabajo\\Codigo_Csharp\\TatetiProject\\Tateti\\Tateti.csproj"
+            "C:\\Users\\tomameri\\OneDrive - NTT DATA EMEAL\\Escritorio\\Tateti\\TatetiProject\\Tateti\\Tateti.csproj": {
+              "projectPath": "C:\\Users\\tomameri\\OneDrive - NTT DATA EMEAL\\Escritorio\\Tateti\\TatetiProject\\Tateti\\Tateti.csproj"
             }
           }
         }
@@ -83,7 +83,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

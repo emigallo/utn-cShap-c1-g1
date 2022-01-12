@@ -43,6 +43,10 @@ namespace GUI.View
                 File turn = _game.UserTurn();
                 if (_game.AddFile(turn, 0, 0))
                 {
+                    //tag atributo
+                    Button x = sender as Button;
+                    x.Content = turn.Type;
+                    x.Tag; //separarlo
                     btnSite00.Content = turn.Type;
                     File file = _game.GetWinner();
                     if (file != null)

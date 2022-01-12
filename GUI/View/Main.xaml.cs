@@ -34,6 +34,7 @@ namespace GUI.View
             _vm.AddUser2(txtUser2.Text);
             //add de los user
             //abrir ventana del juego
+            //pasar los usuarios e crear el vm en gm
             GameTateti x = new GameTateti(_vm);
             this.Close();
             x.ShowDialog();           

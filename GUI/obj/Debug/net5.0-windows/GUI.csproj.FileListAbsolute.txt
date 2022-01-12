@@ -82,3 +82,6 @@ I:\Trabajo\Codigo_Csharp\TatetiProject\GUI\obj\Debug\net5.0-windows\GUI.genrunti
 I:\Trabajo\Codigo_Csharp\TatetiProject\GUI\bin\Debug\net5.0-windows\Tateti.dll
 I:\Trabajo\Codigo_Csharp\TatetiProject\GUI\bin\Debug\net5.0-windows\Tateti.pdb
 I:\Trabajo\Codigo_Csharp\TatetiProject\GUI\obj\Debug\net5.0-windows\GUI.csproj.CopyComplete
+C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\GUI\bin\Debug\net5.0-windows\Tateti.dll
+C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\GUI\bin\Debug\net5.0-windows\Tateti.pdb
+C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\GUI\obj\Debug\net5.0-windows\GUI.csproj.CopyComplete
