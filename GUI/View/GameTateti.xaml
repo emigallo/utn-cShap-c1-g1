@@ -55,6 +55,9 @@
 
         <StackPanel Grid.Row="4" Grid.Column="5" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center">
             <Button Click="ButtonMainMenu_Click" Style="{StaticResource StandarMainMenuButton}"/>
+            <StackPanel.Background>
+                <ImageBrush ImageSource="/View/ButtonPj1.PNG"/>
+            </StackPanel.Background>
         </StackPanel>
 
     </Grid>
