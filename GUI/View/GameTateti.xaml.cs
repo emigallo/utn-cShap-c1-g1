@@ -61,6 +61,7 @@ namespace GUI.View
                         if (_game.GameTied())
                         {
                             _gameFinish = true;
+                            lblWin.Content = "Hay un empate";
                         }
                     }
                 }

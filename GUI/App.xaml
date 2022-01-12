@@ -21,13 +21,38 @@
             </Style>
             <Style TargetType="Button" x:Key="StandarSiteButton" >
                 <Setter Property="FontFamily" Value="Comic Sans MS"></Setter>
-                <Setter Property="FontSize" Value="30"></Setter>
+                <Setter Property="FontSize" Value="45"></Setter>
                 <Setter Property="Background" Value="{x:Null}"></Setter>
                 <Setter Property="Margin" Value="0"></Setter>
                 <Setter Property="BorderBrush" Value="Black"></Setter>
-                
+                <Setter Property="Content" Value="        "></Setter>                
             </Style>
-            
+            <Style TargetType="TextBox" x:Key="StandarNameTXT">
+                <Setter Property="BorderBrush"  Value="{x:Null}"></Setter>
+                <Setter Property="FontSize"     Value="24"></Setter>
+                <Setter Property="FontFamily"   Value="Comic Sans MS"></Setter>
+                <Setter Property="FontWeight" Value="Bold"></Setter>
+            </Style>
+            <Style TargetType="Button" x:Key="StandarPlayButton" >
+                <Setter Property="Background" Value="{x:Null}"></Setter>
+                <Setter Property="Margin" Value="0"></Setter>
+                <Setter Property="BorderBrush" Value="{x:Null}"></Setter>
+                <Setter Property="Content" Value=" "></Setter>
+                <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+                <Setter Property="VerticalAlignment" Value="Top"></Setter>
+                <Setter Property="Margin" Value="236,8,0,0"></Setter>
+                <Setter Property="Height" Value="100"></Setter>
+                <Setter Property="Width" Value="286"></Setter>
+            </Style>
+            <Style TargetType="Button" x:Key="StandarMainMenuButton" >
+                <Setter Property="FontFamily" Value="Comic Sans MS"></Setter>
+                <Setter Property="FontSize" Value="15"></Setter>
+                <Setter Property="Background" Value="{x:Null}"></Setter>
+                <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+                <Setter Property="VerticalAlignment" Value="Center"></Setter>
+                <Setter Property="BorderBrush" Value="Black"></Setter>
+                <Setter Property="Content" Value="Menu principal"></Setter>
+            </Style>
         </ResourceDictionary>
     </Application.Resources>
 </Application>
