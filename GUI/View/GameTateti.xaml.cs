@@ -46,14 +46,15 @@ namespace GUI.View
                 string site = buttonSite.Tag.ToString();
                 int NRow = int.Parse(site.Substring(0, 1));
                 int NCol = int.Parse(site.Substring(1));
-                File turn = _game.UserTurn();
-                if (_game.AddFile(turn, NRow, NCol))
+                File FileTurn = _game.UserTurn();
+                if (_game.AddFile(FileTurn, NRow, NCol))
                 {
-                    buttonSite.Content = turn.Type;
+                    buttonSite.Content = FileTurn.Type;
                     if (_game.GetWinner() != null)
                     {
                         _gameFinish = true;
-                        lblWin.Content = "Hubo Ganador";
+                        string Winner = "El ganador del juego es: " + _game.UserWinner(FileTurn);
+                        lblWin.Content = Winner;
                     }
                     else
                     {
@@ -73,6 +74,13 @@ namespace GUI.View
                 MessageBox.Show("Juego Terminado");
             }
 
+        }
+
+        private void ButtonMainMenu_Click(object sender, RoutedEventArgs e)
+        {
+            Main x = new Main();
+            this.Close();
+            x.ShowDialog();
         }
 
         //private void ButtonSite01_Click(object sender, RoutedEventArgs e)

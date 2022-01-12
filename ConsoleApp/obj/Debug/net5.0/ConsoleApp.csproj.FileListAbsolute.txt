@@ -36,25 +36,6 @@ C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Nueva carpeta\TatetiProje
 C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Nueva carpeta\TatetiProject\ConsoleApp\obj\Debug\net5.0\ref\ConsoleApp.dll
 C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Nueva carpeta\TatetiProject\ConsoleApp\obj\Debug\net5.0\ConsoleApp.pdb
 C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Nueva carpeta\TatetiProject\ConsoleApp\obj\Debug\net5.0\ConsoleApp.genruntimeconfig.cache
-C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\bin\Debug\net5.0\ConsoleApp.exe
-C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\bin\Debug\net5.0\ConsoleApp.deps.json
-C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\bin\Debug\net5.0\ConsoleApp.runtimeconfig.json
-C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\bin\Debug\net5.0\ConsoleApp.runtimeconfig.dev.json
-C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\bin\Debug\net5.0\ConsoleApp.dll
-C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\bin\Debug\net5.0\ref\ConsoleApp.dll
-C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\bin\Debug\net5.0\ConsoleApp.pdb
-C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\bin\Debug\net5.0\Tateti.dll
-C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\bin\Debug\net5.0\Tateti.pdb
-C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\obj\Debug\net5.0\ConsoleApp.csproj.AssemblyReference.cache
-C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\obj\Debug\net5.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\obj\Debug\net5.0\ConsoleApp.AssemblyInfoInputs.cache
-C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\obj\Debug\net5.0\ConsoleApp.AssemblyInfo.cs
-C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\obj\Debug\net5.0\ConsoleApp.csproj.CoreCompileInputs.cache
-C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\obj\Debug\net5.0\ConsoleApp.csproj.CopyComplete
-C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\obj\Debug\net5.0\ConsoleApp.dll
-C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\obj\Debug\net5.0\ref\ConsoleApp.dll
-C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\obj\Debug\net5.0\ConsoleApp.pdb
-C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\obj\Debug\net5.0\ConsoleApp.genruntimeconfig.cache
 C:\Users\gabi\Desktop\asdddd\TatetiProject-main\ConsoleApp\bin\Debug\net5.0\ConsoleApp.exe
 C:\Users\gabi\Desktop\asdddd\TatetiProject-main\ConsoleApp\bin\Debug\net5.0\ConsoleApp.deps.json
 C:\Users\gabi\Desktop\asdddd\TatetiProject-main\ConsoleApp\bin\Debug\net5.0\ConsoleApp.runtimeconfig.json
@@ -74,3 +55,22 @@ C:\Users\gabi\Desktop\asdddd\TatetiProject-main\ConsoleApp\obj\Debug\net5.0\Cons
 C:\Users\gabi\Desktop\asdddd\TatetiProject-main\ConsoleApp\obj\Debug\net5.0\ref\ConsoleApp.dll
 C:\Users\gabi\Desktop\asdddd\TatetiProject-main\ConsoleApp\obj\Debug\net5.0\ConsoleApp.pdb
 C:\Users\gabi\Desktop\asdddd\TatetiProject-main\ConsoleApp\obj\Debug\net5.0\ConsoleApp.genruntimeconfig.cache
+C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\bin\Debug\net5.0\ConsoleApp.exe
+C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\bin\Debug\net5.0\ConsoleApp.deps.json
+C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\bin\Debug\net5.0\ConsoleApp.runtimeconfig.json
+C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\bin\Debug\net5.0\ConsoleApp.runtimeconfig.dev.json
+C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\bin\Debug\net5.0\ConsoleApp.dll
+C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\bin\Debug\net5.0\ref\ConsoleApp.dll
+C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\bin\Debug\net5.0\ConsoleApp.pdb
+C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\bin\Debug\net5.0\Tateti.dll
+C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\bin\Debug\net5.0\Tateti.pdb
+C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\obj\Debug\net5.0\ConsoleApp.csproj.AssemblyReference.cache
+C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\obj\Debug\net5.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\obj\Debug\net5.0\ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\obj\Debug\net5.0\ConsoleApp.AssemblyInfo.cs
+C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\obj\Debug\net5.0\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\obj\Debug\net5.0\ConsoleApp.csproj.CopyComplete
+C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\obj\Debug\net5.0\ConsoleApp.dll
+C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\obj\Debug\net5.0\ref\ConsoleApp.dll
+C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\obj\Debug\net5.0\ConsoleApp.pdb
+C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\ConsoleApp\obj\Debug\net5.0\ConsoleApp.genruntimeconfig.cache

@@ -47,5 +47,13 @@ namespace GUI.ViewModels
         {
             return this._game.GameTied();
         }
+        public string UserWinner(File file)
+        {
+            if (file.Type == File.User1File)
+                return this._game.GetUser1().Name;
+            if (file.Type == File.User2File)
+                return this._game.GetUser2().Name;
+            return "";
+        }
     }
 }

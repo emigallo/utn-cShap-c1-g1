@@ -53,6 +53,10 @@
             <Label x:Name="lblWin" Content="" Style="{StaticResource StandarLabelWin}"></Label>
         </StackPanel>
 
+        <StackPanel Grid.Row="4" Grid.Column="6" HorizontalAlignment="Left" VerticalAlignment="Center">
+            <Button Click="ButtonMainMenu_Click" Content="Menu principal" ></Button>
+        </StackPanel>
+
     </Grid>
 
 

@@ -9,7 +9,7 @@
             <Style TargetType="Label" x:Key="StandarLabelWin" >
                 <Setter Property="Foreground" Value="Black"></Setter>
                 <Setter Property="FontFamily" Value="Comic Sans MS"></Setter>
-                <Setter Property="FontSize" Value="40"></Setter>
+                <Setter Property="FontSize" Value="35"></Setter>
             </Style>
             <Style TargetType="Label" x:Key="StandarLabelUser" >
                 <Setter Property="Foreground" Value="Black"></Setter>
@@ -24,6 +24,7 @@
                 <Setter Property="FontSize" Value="30"></Setter>
                 <Setter Property="Background" Value="{x:Null}"></Setter>
                 <Setter Property="Margin" Value="0"></Setter>
+                <Setter Property="BorderBrush" Value="Black"></Setter>
                 
             </Style>
             
