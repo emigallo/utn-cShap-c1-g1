@@ -27,10 +27,16 @@ namespace GUI.View
         }
         
         private void NewGamebutton_click(object sender, RoutedEventArgs e)
-        {                       
+        {
             //add de los user
             //abrir ventana del juego
             //pasar los usuarios e crear el vm en gm
+            if (string.IsNullOrWhiteSpace(txtUser1.Text))           
+                txtUser1.Text = "Jugador 1";
+            
+            if (string.IsNullOrWhiteSpace(txtUser2.Text))
+                txtUser2.Text = "Jugador 2";
+
             GameTateti x = new GameTateti(txtUser1.Text, txtUser2.Text);
             this.Close();
             x.ShowDialog();           

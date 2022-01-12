@@ -17,6 +17,7 @@ namespace Tateti.Models
         {
             this.Id = id;
             this.File = new File(type);
+            
         }
 
     }
