@@ -43,9 +43,9 @@ namespace GUI.ViewModels
         {
             return this._game.GetBoard().GetWinner();
         }
-        public bool GameState()
+        public bool GameTied()
         {
-            return this._game.GameState();
+            return this._game.GameTied();
         }
     }
 }

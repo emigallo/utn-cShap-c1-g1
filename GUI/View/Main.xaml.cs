@@ -20,22 +20,18 @@ namespace GUI.View
     /// Lógica de interacción para Main.xaml
     /// </summary>
     public partial class Main : Window
-    {
-        private GameTatetiViewModels _vm; 
+    {       
         public Main()
         {
-            InitializeComponent();
-            this._vm = new GameTatetiViewModels();
+            InitializeComponent();            
         }
         
         private void NewGamebutton_click(object sender, RoutedEventArgs e)
-        {           
-            _vm.AddUser1(txtUser1.Text);
-            _vm.AddUser2(txtUser2.Text);
+        {                       
             //add de los user
             //abrir ventana del juego
             //pasar los usuarios e crear el vm en gm
-            GameTateti x = new GameTateti(_vm);
+            GameTateti x = new GameTateti(txtUser1.Text, txtUser2.Text);
             this.Close();
             x.ShowDialog();           
         }       

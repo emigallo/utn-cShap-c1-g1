@@ -58,7 +58,7 @@ namespace Tateti.Models
                 return _user2.File;
             }
         }
-        public bool GameState()
+        public bool GameTied()
         {
             if (this._board.GetTurn() > 9)
             {

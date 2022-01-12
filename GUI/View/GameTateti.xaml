@@ -29,25 +29,25 @@
         </Grid.ColumnDefinitions>
         
         <StackPanel Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <Label x:Name="lblUser1"  Grid.Row="0"  Content="pj1"  Grid.ColumnSpan="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+        <Label x:Name="lblUser1"  Grid.Row="0"  Content="jugador 1"  Grid.ColumnSpan="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
             <Label.Background>
                 <ImageBrush ImageSource="/View/BotonPj1.PNG"/>
             </Label.Background>
         </Label>
-        <Label x:Name="lblUser2" Grid.Column="5" Content="pj2" Grid.ColumnSpan="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="0,-10,0,10">
+        <Label x:Name="lblUser2" Grid.Column="5" Content="Jugador 2" Grid.ColumnSpan="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="0,-10,0,10">
             <Label.Background>
                 <ImageBrush ImageSource="/View/BotonPj2.PNG"/>
             </Label.Background>
         </Label>
-        <Button Click="ButtonSite00_Click" Tag="0-0" Grid.Row="1" Grid.Column="2" x:Name="btnSite00" Content=" " Background="{x:Null}" BorderThickness="0,0,10,10" BorderBrush="Black" Margin="0,0,0,86" Grid.RowSpan="2"/>
-        <Button Click="ButtonSite01_Click" Grid.Row="1" Grid.Column="3" x:Name="btnSite01" Content=" " Background="{x:Null}" BorderThickness="0,0,10,10" BorderBrush="Black" Margin="0,0,0,86" Grid.RowSpan="2"/>
-        <Button Click="ButtonSite02_Click" Grid.Row="1" Grid.Column="4" x:Name="btnSite02" Content=" " Background="{x:Null}" BorderThickness="0,0,0,10" BorderBrush="Black" Margin="0,0,0,86" Grid.RowSpan="2"/>
-        <Button Click="ButtonSite10_Click" Grid.Row="2" Grid.Column="2" x:Name="btnSite10" Content=" " Background="{x:Null}" BorderThickness="0,0,10,10" BorderBrush="Black"/>
-        <Button Click="ButtonSite11_Click" Grid.Row="2" Grid.Column="3" x:Name="btnSite11" Content=" " Background="{x:Null}" BorderThickness="0,0,10,10" BorderBrush="Black"/>
-        <Button Click="ButtonSite12_Click" Grid.Row="2" Grid.Column="4" x:Name="btnSite12" Content=" " Background="{x:Null}" BorderThickness="0,0,0,10" BorderBrush="Black"/>
-        <Button Click="ButtonSite20_Click" Grid.Row="2" Grid.Column="2" x:Name="btnSite20" Content=" " Background="{x:Null}" BorderThickness="0,0,10,0" BorderBrush="Black" Margin="0,86,0,0" Grid.RowSpan="2"/>
-        <Button Click="ButtonSite21_Click" Grid.Row="2" Grid.Column="3" x:Name="btnSite21" Content=" " Background="{x:Null}" BorderThickness="0,0,10,0" BorderBrush="Black" Margin="0,86,0,0" Grid.RowSpan="2"/>
-        <Button Click="ButtonSite22_Click" Grid.Row="2" Grid.Column="4" x:Name="btnSite22" Content=" " Background="{x:Null}" BorderThickness="0,0,0,0" BorderBrush="Black" Margin="0,86,0,0" Grid.RowSpan="2"/>
+        <Button Click="ButtonSite_Click" Tag="00" Grid.Row="1" Grid.Column="2" Content=" " Style="{StaticResource StandarSiteButton}"  BorderThickness="0,0,10,10" />
+        <Button Click="ButtonSite_Click" Tag="01" Grid.Row="1" Grid.Column="3" Content=" " Style="{StaticResource StandarSiteButton}"  BorderThickness="0,0,10,10" />
+        <Button Click="ButtonSite_Click" Tag="02" Grid.Row="1" Grid.Column="4" Content=" " Style="{StaticResource StandarSiteButton}"  BorderThickness="0,0,0,10"  />
+        <Button Click="ButtonSite_Click" Tag="10" Grid.Row="2" Grid.Column="2" Content=" " Style="{StaticResource StandarSiteButton}"  BorderThickness="0,0,10,10" />
+        <Button Click="ButtonSite_Click" Tag="11" Grid.Row="2" Grid.Column="3" Content=" " Style="{StaticResource StandarSiteButton}"  BorderThickness="0,0,10,10" />
+        <Button Click="ButtonSite_Click" Tag="12" Grid.Row="2" Grid.Column="4" Content=" " Style="{StaticResource StandarSiteButton}"  BorderThickness="0,0,0,10"  />
+        <Button Click="ButtonSite_Click" Tag="20" Grid.Row="3" Grid.Column="2" Content=" " Style="{StaticResource StandarSiteButton}"  BorderThickness="0,0,10,0"  />
+        <Button Click="ButtonSite_Click" Tag="21" Grid.Row="3" Grid.Column="3" Content=" " Style="{StaticResource StandarSiteButton}"  BorderThickness="0,0,10,0"  />
+        <Button Click="ButtonSite_Click" Tag="22" Grid.Row="3" Grid.Column="4" Content=" " Style="{StaticResource StandarSiteButton}"  BorderThickness="0,0,0,0"   />
 
         <StackPanel Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="5" HorizontalAlignment="Center" VerticalAlignment="Center" >
             <Label x:Name="lblWin" Content="" FontSize="45" Style="{StaticResource StandarLabel}"></Label>

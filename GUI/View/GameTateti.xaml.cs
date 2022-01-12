@@ -22,11 +22,13 @@ namespace GUI.View
     public partial class GameTateti : Window
     {
         GameTatetiViewModels _game;
-        bool gameState =  false;
-        public GameTateti(GameTatetiViewModels game)
+        bool _gameFinish = false;
+        public GameTateti(string NameUser1, string NameUser2)
         {
             InitializeComponent();
-            this._game = game;
+            this._game = new GameTatetiViewModels();
+            _game.AddUser1(NameUser1);
+            _game.AddUser2(NameUser2);
             AddName();
         }
 
@@ -35,28 +37,30 @@ namespace GUI.View
             lblUser1.Content = _game.GetUser1().Name;
             lblUser2.Content = _game.GetUser2().Name;
         }
-
-        private void ButtonSite00_Click(object sender, RoutedEventArgs e)
+                
+        private void ButtonSite_Click(object sender, RoutedEventArgs e)
         {
-            if (!gameState)
+            if (!_gameFinish)
             {
+                Button buttonSite = sender as Button;
+                string site = buttonSite.Tag.ToString();
+                int NRow = int.Parse(site.Substring(0, 1));
+                int NCol = int.Parse(site.Substring(1));
                 File turn = _game.UserTurn();
-                if (_game.AddFile(turn, 0, 0))
+                if (_game.AddFile(turn, NRow, NCol))
                 {
-                    //tag atributo
-                    Button x = sender as Button;
-                    x.Content = turn.Type;
-                    x.Tag; //separarlo
-                    btnSite00.Content = turn.Type;
-                    File file = _game.GetWinner();
-                    if (file != null)
+                    buttonSite.Content = turn.Type;
+                    if (_game.GetWinner() != null)
                     {
-                        gameState = true;
+                        _gameFinish = true;
                         lblWin.Content = "Hubo Ganador";
                     }
-                    if (_game.GameState())
+                    else
                     {
-                        gameState = true;
+                        if (_game.GameTied())
+                        {
+                            _gameFinish = true;
+                        }
                     }
                 }
                 else
@@ -64,251 +68,251 @@ namespace GUI.View
                     MessageBox.Show("Campo usado");
                 }
             }
-            if(gameState)
+            else
             {
                 MessageBox.Show("Juego Terminado");
-            }    
-            
+            }
+
         }
 
-        private void ButtonSite01_Click(object sender, RoutedEventArgs e)
-        {
-            if (!gameState)
-            {
-                File turn = _game.UserTurn();
-                if (_game.AddFile(turn, 0, 1))
-                {
-                    btnSite01.Content = turn.Type;
-                    File file = _game.GetWinner();
-                    if (file != null)
-                    {
-                        gameState = true;
-                        lblWin.Content = "Hubo Ganador";
-                    }
-                    if (_game.GameState())
-                    {
-                        gameState = true;
-                    }
-                }
-                else
-                {
-                    MessageBox.Show("Campo usado");
-                }
-            }
-            if (gameState)
-            {
-                MessageBox.Show("Juego Terminado");
-            }
-        }
+        //private void ButtonSite01_Click(object sender, RoutedEventArgs e)
+        //{
+        //    if (!_gameFinish)
+        //    {
+        //        File turn = _game.UserTurn();
+        //        if (_game.AddFile(turn, 0, 1))
+        //        {
+        //            btnSite01.Content = turn.Type;
+        //            File file = _game.GetWinner();
+        //            if (file != null)
+        //            {
+        //                _gameFinish = true;
+        //                lblWin.Content = "Hubo Ganador";
+        //            }
+        //            if (_game.GameTied())
+        //            {
+        //                _gameFinish = true;
+        //            }
+        //        }
+        //        else
+        //        {
+        //            MessageBox.Show("Campo usado");
+        //        }
+        //    }
+        //    if (_gameFinish)
+        //    {
+        //        MessageBox.Show("Juego Terminado");
+        //    }
+        //}
 
-        private void ButtonSite02_Click(object sender, RoutedEventArgs e)
-        {
-            if (!gameState)
-            {
-                File turn = _game.UserTurn();
-                if (_game.AddFile(turn, 0, 2))
-                {
-                    btnSite02.Content = turn.Type;
-                    File file = _game.GetWinner();
-                    if (file != null)
-                    {
-                        gameState = true;
-                        lblWin.Content = "Hubo Ganador";
-                    }
-                    if (_game.GameState())
-                    {
-                        gameState = true;
-                    }
-                }
-                else
-                {
-                    MessageBox.Show("Campo usado");
-                }
-            }
-            if (gameState)
-            {
-                MessageBox.Show("Juego Terminado");
-            }
-        }
+        //private void ButtonSite02_Click(object sender, RoutedEventArgs e)
+        //{
+        //    if (!_gameFinish)
+        //    {
+        //        File turn = _game.UserTurn();
+        //        if (_game.AddFile(turn, 0, 2))
+        //        {
+        //            btnSite02.Content = turn.Type;
+        //            File file = _game.GetWinner();
+        //            if (file != null)
+        //            {
+        //                _gameFinish = true;
+        //                lblWin.Content = "Hubo Ganador";
+        //            }
+        //            if (_game.GameTied())
+        //            {
+        //                _gameFinish = true;
+        //            }
+        //        }
+        //        else
+        //        {
+        //            MessageBox.Show("Campo usado");
+        //        }
+        //    }
+        //    if (_gameFinish)
+        //    {
+        //        MessageBox.Show("Juego Terminado");
+        //    }
+        //}
 
-        private void ButtonSite10_Click(object sender, RoutedEventArgs e)
-        {
-            if (!gameState)
-            {
-                File turn = _game.UserTurn();
-                if (_game.AddFile(turn, 1, 0))
-                {
-                    btnSite10.Content = turn.Type;
-                    File file = _game.GetWinner();
-                    if (file != null)
-                    {
-                        gameState = true;
-                        lblWin.Content = "Hubo Ganador";
-                    }
-                    if (_game.GameState())
-                    {
-                        gameState = true;
-                    }
-                }
-                else
-                {
-                    MessageBox.Show("Campo usado");
-                }
-            }
-            if (gameState)
-            {
-                MessageBox.Show("Juego Terminado");
-            }
-        }
+        //private void ButtonSite10_Click(object sender, RoutedEventArgs e)
+        //{
+        //    if (!_gameFinish)
+        //    {
+        //        File turn = _game.UserTurn();
+        //        if (_game.AddFile(turn, 1, 0))
+        //        {
+        //            btnSite10.Content = turn.Type;
+        //            File file = _game.GetWinner();
+        //            if (file != null)
+        //            {
+        //                _gameFinish = true;
+        //                lblWin.Content = "Hubo Ganador";
+        //            }
+        //            if (_game.GameTied())
+        //            {
+        //                _gameFinish = true;
+        //            }
+        //        }
+        //        else
+        //        {
+        //            MessageBox.Show("Campo usado");
+        //        }
+        //    }
+        //    if (_gameFinish)
+        //    {
+        //        MessageBox.Show("Juego Terminado");
+        //    }
+        //}
 
-        private void ButtonSite11_Click(object sender, RoutedEventArgs e)
-        {
-            if (!gameState)
-            {
-                File turn = _game.UserTurn();
-                if (_game.AddFile(turn, 1, 1))
-                {
-                    btnSite11.Content = turn.Type;
-                    File file = _game.GetWinner();
-                    if (file != null)
-                    {
-                        gameState = true;
-                        lblWin.Content = "Hubo Ganador";
-                    }
-                    if (_game.GameState())
-                    {
-                        gameState = true;
-                    }
-                }
-                else
-                {
-                    MessageBox.Show("Campo usado");
-                }
-            }
-            if (gameState)
-            {
-                MessageBox.Show("Juego Terminado");
-            }
-        }
+        //private void ButtonSite11_Click(object sender, RoutedEventArgs e)
+        //{
+        //    if (!_gameFinish)
+        //    {
+        //        File turn = _game.UserTurn();
+        //        if (_game.AddFile(turn, 1, 1))
+        //        {
+        //            btnSite11.Content = turn.Type;
+        //            File file = _game.GetWinner();
+        //            if (file != null)
+        //            {
+        //                _gameFinish = true;
+        //                lblWin.Content = "Hubo Ganador";
+        //            }
+        //            if (_game.GameTied())
+        //            {
+        //                _gameFinish = true;
+        //            }
+        //        }
+        //        else
+        //        {
+        //            MessageBox.Show("Campo usado");
+        //        }
+        //    }
+        //    if (_gameFinish)
+        //    {
+        //        MessageBox.Show("Juego Terminado");
+        //    }
+        //}
 
-        private void ButtonSite12_Click(object sender, RoutedEventArgs e)
-        {
-            if (!gameState)
-            {
-                File turn = _game.UserTurn();
-                if (_game.AddFile(turn, 1, 2))
-                {
-                    btnSite12.Content = turn.Type;
-                    File file = _game.GetWinner();
-                    if (file != null)
-                    {
-                        gameState = true;
-                        lblWin.Content = "Hubo Ganador";
-                    }
-                    if (_game.GameState())
-                    {
-                        gameState = true;
-                    }
-                }
-                else
-                {
-                    MessageBox.Show("Campo usado");
-                }
-            }
-            if (gameState)
-            {
-                MessageBox.Show("Juego Terminado");
-            }
-        }
+        //private void ButtonSite12_Click(object sender, RoutedEventArgs e)
+        //{
+        //    if (!_gameFinish)
+        //    {
+        //        File turn = _game.UserTurn();
+        //        if (_game.AddFile(turn, 1, 2))
+        //        {
+        //            btnSite12.Content = turn.Type;
+        //            File file = _game.GetWinner();
+        //            if (file != null)
+        //            {
+        //                _gameFinish = true;
+        //                lblWin.Content = "Hubo Ganador";
+        //            }
+        //            if (_game.GameTied())
+        //            {
+        //                _gameFinish = true;
+        //            }
+        //        }
+        //        else
+        //        {
+        //            MessageBox.Show("Campo usado");
+        //        }
+        //    }
+        //    if (_gameFinish)
+        //    {
+        //        MessageBox.Show("Juego Terminado");
+        //    }
+        //}
 
-        private void ButtonSite20_Click(object sender, RoutedEventArgs e)
-        {
-            if (!gameState)
-            {
-                File turn = _game.UserTurn();
-                if (_game.AddFile(turn, 2, 0))
-                {
-                    btnSite20.Content = turn.Type;
-                    File file = _game.GetWinner();
-                    if (file != null)
-                    {
-                        gameState = true;
-                        lblWin.Content = "Hubo Ganador";
-                    }
-                    if (_game.GameState())
-                    {
-                        gameState = true;
-                    }
-                }
-                else
-                {
-                    MessageBox.Show("Campo usado");
-                }
-            }
-            if (gameState)
-            {
-                MessageBox.Show("Juego Terminado");
-            }
-        }
+        //private void ButtonSite20_Click(object sender, RoutedEventArgs e)
+        //{
+        //    if (!_gameFinish)
+        //    {
+        //        File turn = _game.UserTurn();
+        //        if (_game.AddFile(turn, 2, 0))
+        //        {
+        //            btnSite20.Content = turn.Type;
+        //            File file = _game.GetWinner();
+        //            if (file != null)
+        //            {
+        //                _gameFinish = true;
+        //                lblWin.Content = "Hubo Ganador";
+        //            }
+        //            if (_game.GameTied())
+        //            {
+        //                _gameFinish = true;
+        //            }
+        //        }
+        //        else
+        //        {
+        //            MessageBox.Show("Campo usado");
+        //        }
+        //    }
+        //    if (_gameFinish)
+        //    {
+        //        MessageBox.Show("Juego Terminado");
+        //    }
+        //}
 
-        private void ButtonSite21_Click(object sender, RoutedEventArgs e)
-        {
-            if (!gameState)
-            {
-                File turn = _game.UserTurn();
-                if (_game.AddFile(turn, 2, 1))
-                {
-                    btnSite21.Content = turn.Type;
-                    File file = _game.GetWinner();
-                    if (file != null)
-                    {
-                        gameState = true;
-                        lblWin.Content = "Hubo Ganador";
-                    }
-                    if (_game.GameState())
-                    {
-                        gameState = true;
-                    }
-                }
-                else
-                {
-                    MessageBox.Show("Campo usado");
-                }
-            }
-            if (gameState)
-            {
-                MessageBox.Show("Juego Terminado");
-            }
-        }
+        //private void ButtonSite21_Click(object sender, RoutedEventArgs e)
+        //{
+        //    if (!_gameFinish)
+        //    {
+        //        File turn = _game.UserTurn();
+        //        if (_game.AddFile(turn, 2, 1))
+        //        {
+        //            btnSite21.Content = turn.Type;
+        //            File file = _game.GetWinner();
+        //            if (file != null)
+        //            {
+        //                _gameFinish = true;
+        //                lblWin.Content = "Hubo Ganador";
+        //            }
+        //            if (_game.GameTied())
+        //            {
+        //                _gameFinish = true;
+        //            }
+        //        }
+        //        else
+        //        {
+        //            MessageBox.Show("Campo usado");
+        //        }
+        //    }
+        //    if (_gameFinish)
+        //    {
+        //        MessageBox.Show("Juego Terminado");
+        //    }
+        //}
 
-        private void ButtonSite22_Click(object sender, RoutedEventArgs e)
-        {           
-            if (!gameState)
-            {
-                File turn = _game.UserTurn();
-                if (_game.AddFile(turn, 2, 2))
-                {
-                    btnSite22.Content = turn.Type;
-                    File file = _game.GetWinner();
-                    if (file != null)
-                    {
-                        gameState = true;
-                        lblWin.Content = "Hubo Ganador";
-                    }
-                    if(_game.GameState())
-                    {
-                        gameState = true;
-                    }
-                }
-                else
-                {
-                    MessageBox.Show("Campo usado");
-                }
-            }
-            if (gameState)
-            {
-                MessageBox.Show("Juego Terminado");
-            }
-        }
+        //private void ButtonSite22_Click(object sender, RoutedEventArgs e)
+        //{           
+        //    if (!_gameFinish)
+        //    {
+        //        File turn = _game.UserTurn();
+        //        if (_game.AddFile(turn, 2, 2))
+        //        {
+        //            btnSite22.Content = turn.Type;
+        //            File file = _game.GetWinner();
+        //            if (file != null)
+        //            {
+        //                _gameFinish = true;
+        //                lblWin.Content = "Hubo Ganador";
+        //            }
+        //            if(_game.GameTied())
+        //            {
+        //                _gameFinish = true;
+        //            }
+        //        }
+        //        else
+        //        {
+        //            MessageBox.Show("Campo usado");
+        //        }
+        //    }
+        //    if (_gameFinish)
+        //    {
+        //        MessageBox.Show("Juego Terminado");
+        //    }
+        //}
     }
 }
