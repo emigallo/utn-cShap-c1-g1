@@ -10,7 +10,17 @@
       "ProjectGuid": "ede68fd0-c36a-4c9d-a3a5-bbd5d53eae2e",
       "DisplayName": "ConsoleApp",
       "ColorIndex": 1
+    },
+    "babaabfe-4612-492f-8386-5dd20c80963b": {
+      "ProjectGuid": "babaabfe-4612-492f-8386-5dd20c80963b",
+      "DisplayName": "GUI",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }

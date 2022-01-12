@@ -10,26 +10,16 @@
   <ItemGroup>
     <None Remove="View\bg.png" />
     <None Remove="View\BotonPj.PNG" />
-    <None Remove="View\BotonPj1.PNG" />
-    <None Remove="View\BotonPj2.PNG" />
-    <None Remove="View\GAME.PNG" />
     <None Remove="View\PLAY.PNG" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Models\" />
+    <Folder Include="ViewResource\" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Tateti\Tateti.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Resource Include="View\bg.png" />
-    <Resource Include="View\BotonPj1.PNG" />
-    <Resource Include="View\BotonPj2.PNG" />
-    <Resource Include="View\GAME.PNG" />
-    <Resource Include="View\PLAY.PNG" />
   </ItemGroup>
 
 </Project>
