@@ -13,10 +13,11 @@
         </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition />
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
+            <RowDefinition Height="1.15*"/>
+            <RowDefinition Height="1.15*"/>
+            <RowDefinition Height="1.15*"/>
+            <RowDefinition Height="0.85*"/>
+            <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition />
@@ -28,7 +29,6 @@
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
 
-        <StackPanel Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <Label x:Name="lblUser1"  Grid.Row="0"  Content="Jugador 1"  Grid.ColumnSpan="2" Style="{StaticResource StandarLabelUser}" Margin="0,0,10,77" Grid.RowSpan="2">
             <Label.Background>
                 <ImageBrush ImageSource="/View/ButtonPj1.PNG"/>
@@ -39,6 +39,7 @@
                 <ImageBrush ImageSource="/View/ButtonPj2.PNG"/>
             </Label.Background>
         </Label>
+        
         <Button Click="ButtonSite_Click" Tag="00" Grid.Row="1" Grid.Column="2" Style="{StaticResource StandarSiteButton}" />
         <Button Click="ButtonSite_Click" Tag="01" Grid.Row="1" Grid.Column="3" Style="{StaticResource StandarSiteButton}" />
         <Button Click="ButtonSite_Click" Tag="02" Grid.Row="1" Grid.Column="4" Style="{StaticResource StandarSiteButton}" />
@@ -49,17 +50,15 @@
         <Button Click="ButtonSite_Click" Tag="21" Grid.Row="3" Grid.Column="3" Style="{StaticResource StandarSiteButton}" />
         <Button Click="ButtonSite_Click" Tag="22" Grid.Row="3" Grid.Column="4" Style="{StaticResource StandarSiteButton}" />
 
-        <StackPanel Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="5" HorizontalAlignment="Center" VerticalAlignment="Center" >
-            <Label x:Name="lblWin" Content="" Style="{StaticResource StandarLabelWin}"></Label>
-        </StackPanel>
+        <Label Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="3" x:Name="lblWin" Content="" Style="{StaticResource StandarLabelWin}"></Label>
+        <Label Grid.Row="4" Grid.Column="4" Grid.ColumnSpan="2" x:Name="lblWinName" Content="" Style="{StaticResource StandarLabelWin}" FontSize="35" FontWeight="Bold" ></Label>
+        <Label Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="5" x:Name="lblTie" Content="" Style="{StaticResource StandarLabelTie}"/>
 
-        <StackPanel Grid.Row="4" Grid.Column="5" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Button Click="ButtonMainMenu_Click" Style="{StaticResource StandarMainMenuButton}"/>
-            <StackPanel.Background>
-                <ImageBrush ImageSource="/View/ButtonPj1.PNG"/>
-            </StackPanel.Background>
-        </StackPanel>
-
+        <Button x:Name="btnBack" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="5" Click="ButtonMainMenu_Click" Style="{StaticResource StandarMainMenuButton}">
+            <Button.Background>
+                <ImageBrush ImageSource="/View/ButtonMain.PNG"/>
+            </Button.Background>
+        </Button>      
     </Grid>
 
 

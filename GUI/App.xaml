@@ -10,6 +10,14 @@
                 <Setter Property="Foreground" Value="Black"></Setter>
                 <Setter Property="FontFamily" Value="Comic Sans MS"></Setter>
                 <Setter Property="FontSize" Value="30"></Setter>
+                <Setter Property="VerticalContentAlignment" Value="Top"></Setter>
+            </Style>
+            <Style TargetType="Label" x:Key="StandarLabelTie" >
+                <Setter Property="Foreground" Value="Black"></Setter>
+                <Setter Property="FontFamily" Value="Comic Sans MS"></Setter>
+                <Setter Property="FontSize" Value="30"></Setter>
+                <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+                <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
             </Style>
             <Style TargetType="Label" x:Key="StandarLabelUser" >
                 <Setter Property="Foreground" Value="Black"></Setter>
@@ -51,21 +59,15 @@
                             </Grid>
                         </ControlTemplate>
                     </Setter.Value>
-                </Setter>
-                <!--<Setter Property="Background">
-                    <Setter.Value>
-                        <ImageBrush ImageSource="/GUI;content/ViewResource/ButtonJugar.PNG"/>
-                    </Setter.Value>
-                </Setter>-->
+                </Setter>                
             </Style>
             <Style TargetType="Button" x:Key="StandarMainMenuButton" >
                 <Setter Property="FontFamily" Value="Comic Sans MS"></Setter>
-                <Setter Property="FontSize" Value="20"></Setter>
-                <Setter Property="Background" Value="{x:Null}"></Setter>
+                <Setter Property="FontSize" Value="30"></Setter>
                 <Setter Property="HorizontalAlignment" Value="Center"></Setter>
                 <Setter Property="VerticalAlignment" Value="Center"></Setter>
-                <Setter Property="BorderBrush" Value="Black"></Setter>
-                <Setter Property="Content" Value="Menu principal"></Setter>
+                <Setter Property="Content" Value="  Menu principal  "></Setter>
+                <Setter Property="Margin" Value="5"></Setter>
                 <Setter Property="Template">
                     <Setter.Value>
                         <ControlTemplate TargetType="Button">

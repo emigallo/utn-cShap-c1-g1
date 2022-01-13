@@ -30,13 +30,9 @@
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
         <TextBox x:Name="txtUser1"  Grid.Row="7" Grid.RowSpan="2" Grid.Column="0" Margin="111,4,111,24"    Style="{StaticResource StandarNameTXT}" >
-
         </TextBox>
-
         <TextBox x:Name="txtUser2"  Grid.Row="6" Grid.RowSpan="3" Grid.Column="1" Margin="78,36,144,28"   Style="{StaticResource StandarNameTXT}">
-
         </TextBox>
-
         <Button x:Name="Play" Grid.Row="9" Grid.Column="0"  Grid.RowSpan="3" Grid.ColumnSpan="2" Click="NewGamebutton_click" Style="{StaticResource StandarPlayButton}">
             <Button.Background>
                 <ImageBrush ImageSource="/View/ButtonJugar.PNG"/>
