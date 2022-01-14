@@ -5,11 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GUI.View"
         mc:Ignorable="d"
-        Title="Main" Height="450" Width="800">
+        Title="Tateti" MaxHeight="450" MaxWidth="800" MinHeight="449" MinWidth="799">
 
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="/View/BackgroundMain.png"/>
+            <ImageBrush ImageSource="BackgroundMain.png"/>
         </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition />
@@ -26,16 +26,18 @@
             <RowDefinition />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition />
-            <ColumnDefinition />
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="170"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*" />
+            
         </Grid.ColumnDefinitions>
-        <TextBox x:Name="txtUser1"  Grid.Row="7" Grid.RowSpan="2" Grid.Column="0" Margin="111,4,111,24"    Style="{StaticResource StandarNameTXT}" >
-        </TextBox>
-        <TextBox x:Name="txtUser2"  Grid.Row="6" Grid.RowSpan="3" Grid.Column="1" Margin="78,36,144,28"   Style="{StaticResource StandarNameTXT}">
-        </TextBox>
-        <Button x:Name="Play" Grid.Row="9" Grid.Column="0"  Grid.RowSpan="3" Grid.ColumnSpan="2" Click="NewGamebutton_click" Style="{StaticResource StandarPlayButton}">
+        <TextBox x:Name="txtUser1"  Grid.Row="7"  Grid.Column="1"  Style="{StaticResource StandarNameTXT}"></TextBox>
+        <TextBox x:Name="txtUser2"  Grid.Row="7"  Grid.Column="3"  Style="{StaticResource StandarNameTXT}"></TextBox>
+        <Button x:Name="Play" Grid.Row="9" Grid.Column="0" Grid.RowSpan="3" Grid.ColumnSpan="6" Click="NewGamebutton_click" Style="{StaticResource StandarPlayButton}">
             <Button.Background>
-                <ImageBrush ImageSource="/View/ButtonJugar.PNG"/>
+                <ImageBrush ImageSource="ButtonJugar.PNG"/>
             </Button.Background>
         </Button>
     </Grid>

@@ -6,37 +6,37 @@
         xmlns:local="clr-namespace:GUI.View"
         mc:Ignorable="d"
         
-        Title="GameTateti" Height="450" Width="800">
+        Title="GameTateti" MaxHeight="450" MaxWidth="800" MinHeight="449" MinWidth="799">
     <Grid x:Name="Game">
         <Grid.Background>
-            <ImageBrush ImageSource="/View/BackgroundGame.PNG"/>
+            <ImageBrush ImageSource="BackgroundGame.PNG"/>
         </Grid.Background>
         <Grid.RowDefinitions>
-            <RowDefinition />
+            <RowDefinition Height="70"/>
             <RowDefinition Height="1.15*"/>
             <RowDefinition Height="1.15*"/>
             <RowDefinition Height="1.15*"/>
-            <RowDefinition Height="0.85*"/>
+            <RowDefinition Height="0.90*"/>
             <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition />
             <ColumnDefinition />
-            <ColumnDefinition />
-            <ColumnDefinition />
-            <ColumnDefinition />
+            <ColumnDefinition Width="1.15*"/>
+            <ColumnDefinition Width="1.15*"/>
+            <ColumnDefinition Width="1.15*"/>
             <ColumnDefinition />
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
 
-        <Label x:Name="lblUser1"  Grid.Row="0"  Content="Jugador 1"  Grid.ColumnSpan="2" Style="{StaticResource StandarLabelUser}" Margin="0,0,10,77" Grid.RowSpan="2">
+        <Label x:Name="lblUser1"  Grid.Row="0"  Content="Jugador 1"  Grid.ColumnSpan="2" Style="{StaticResource StandarLabelUser}" >
             <Label.Background>
-                <ImageBrush ImageSource="/View/ButtonPj1.PNG"/>
+                <ImageBrush ImageSource="ButtonPj1.PNG"/>
             </Label.Background>
         </Label>
-        <Label x:Name="lblUser2" Grid.Column="5" Content="Jugador 2" Grid.ColumnSpan="2"  Style="{StaticResource StandarLabelUser}" Margin="10,0,0,77" Grid.RowSpan="2">
+        <Label x:Name="lblUser2" Grid.Column="5" Content="Jugador 2" Grid.ColumnSpan="2" Style="{StaticResource StandarLabelUser}">
             <Label.Background>
-                <ImageBrush ImageSource="/View/ButtonPj2.PNG"/>
+                <ImageBrush ImageSource="ButtonPj2.PNG"/>
             </Label.Background>
         </Label>
         
@@ -50,13 +50,13 @@
         <Button Click="ButtonSite_Click" Tag="21" Grid.Row="3" Grid.Column="3" Style="{StaticResource StandarSiteButton}" />
         <Button Click="ButtonSite_Click" Tag="22" Grid.Row="3" Grid.Column="4" Style="{StaticResource StandarSiteButton}" />
 
-        <Label Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="3" x:Name="lblWin" Content="" Style="{StaticResource StandarLabelWin}"></Label>
-        <Label Grid.Row="4" Grid.Column="4" Grid.ColumnSpan="2" x:Name="lblWinName" Content="" Style="{StaticResource StandarLabelWin}" FontSize="35" FontWeight="Bold" ></Label>
-        <Label Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="5" x:Name="lblTie" Content="" Style="{StaticResource StandarLabelTie}"/>
+        <Label Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="3" x:Name="lblWin"     Content="" Style="{StaticResource StandarLabelWin}"     ></Label>
+        <Label Grid.Row="4" Grid.Column="4" Grid.ColumnSpan="2" x:Name="lblWinName" Content="" Style="{StaticResource StandarLabelWinName}" ></Label>
+        <Label Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="5" x:Name="lblTie"     Content="" Style="{StaticResource StandarLabelTie}"     ></Label>
 
         <Button x:Name="btnBack" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="5" Click="ButtonMainMenu_Click" Style="{StaticResource StandarMainMenuButton}">
             <Button.Background>
-                <ImageBrush ImageSource="/View/ButtonMain.PNG"/>
+                <ImageBrush ImageSource="ButtonMain.PNG"/>
             </Button.Background>
         </Button>      
     </Grid>

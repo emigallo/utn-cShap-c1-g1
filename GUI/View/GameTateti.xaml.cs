@@ -35,51 +35,51 @@ namespace GUI.View
         {
             lblUser1.Content = _game.GetUser1().Name;
             lblUser2.Content = _game.GetUser2().Name;
-        }                
+        }
         private void ButtonSite_Click(object sender, RoutedEventArgs e)
         {
-            if (!_gameFinish)
+            if (_gameFinish)
             {
-                Button buttonSite = sender as Button;
-                string site = buttonSite.Tag.ToString();
-                int NRow = int.Parse(site.Substring(0, 1));
-                int NCol = int.Parse(site.Substring(1));
-                File FileTurn = _game.UserTurn();
-                if (_game.AddFile(FileTurn, NRow, NCol))
+                MessageBox.Show("Juego Terminado");
+                return;
+            }
+            Button buttonSite = sender as Button;
+            string site = buttonSite.Tag.ToString();
+            int NRow = int.Parse(site.Substring(0, 1));
+            int NCol = int.Parse(site.Substring(1));
+            File FileTurn = _game.UserTurn();
+            if (_game.AddFile(FileTurn, NRow, NCol))
+            {
+                buttonSite.Content = FileTurn.Type;
+                if (_game.GetWinner() != null)
                 {
-                    buttonSite.Content = FileTurn.Type;
-                    if (_game.GetWinner() != null)
-                    {
-                        _gameFinish = true;
-                        string Winner = "El ganador del juego es";
-                        lblWin.Content = Winner;
-                        lblWinName.Content= _game.UserWinner(FileTurn);
-                    }
-                    else
-                    {
-                        if (_game.GameTied())
-                        {
-                            _gameFinish = true;
-                            lblTie.Content = "Hay un empate entre los jugadores";
-                        }
-                    }
+                    _gameFinish = true;
+                    string Winner = "El ganador del juego es";
+                    lblWin.Content = Winner;
+                    lblWinName.Content = _game.UserWinner(FileTurn);
                 }
                 else
                 {
-                    MessageBox.Show("Campo usado");
+                    if (_game.GameTied())
+                    {
+                        _gameFinish = true;
+                        lblTie.Content = "Hay un empate entre los jugadores";
+                    }
                 }
             }
             else
             {
-                MessageBox.Show("Juego Terminado");
+                MessageBox.Show("Campo usado");
             }
-
         }
-        private void ButtonMainMenu_Click(object sender, RoutedEventArgs e)
-        {
-            Main x = new Main();
-            this.Close();
-            x.ShowDialog();
-        }        
+
+
+    
+    private void ButtonMainMenu_Click(object sender, RoutedEventArgs e)
+    {
+        Main x = new Main();
+        this.Close();
+        x.ShowDialog();
     }
+}
 }

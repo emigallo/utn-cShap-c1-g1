@@ -8,6 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="ViewResource\BackgroundGame.PNG" />
+    <None Remove="ViewResource\BackgroundMain.png" />
+    <None Remove="ViewResource\ButtonJugar.PNG" />
+    <None Remove="ViewResource\ButtonMain.PNG" />
+    <None Remove="ViewResource\ButtonPj1.PNG" />
+    <None Remove="ViewResource\ButtonPj2.PNG" />
     <None Remove="View\BackgroundGame.PNG" />
     <None Remove="View\BackgroundMain.png" />
     <None Remove="View\bg.png" />
@@ -21,7 +27,6 @@
 
   <ItemGroup>
     <Folder Include="Models\" />
-    <Folder Include="ViewResource\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -33,6 +38,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="ViewResource\BackgroundGame.PNG" />
+    <Resource Include="ViewResource\BackgroundMain.png" />
+    <Resource Include="ViewResource\ButtonJugar.PNG" />
+    <Resource Include="ViewResource\ButtonMain.PNG" />
+    <Resource Include="ViewResource\ButtonPj1.PNG" />
+    <Resource Include="ViewResource\ButtonPj2.PNG" />
     <Resource Include="View\BackgroundGame.PNG" />
     <Resource Include="View\BackgroundMain.png" />
     <Resource Include="View\ButtonJugar.PNG" />

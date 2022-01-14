@@ -65,14 +65,12 @@ C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\GUI\
 C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\GUI\bin\Debug\net5.0-windows\Tateti.dll
 C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\GUI\bin\Debug\net5.0-windows\Tateti.pdb
 C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\GUI\obj\Debug\net5.0-windows\GUI.csproj.AssemblyReference.cache
-C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\GUI\obj\Debug\net5.0-windows\MainWindow.g.cs
 C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\GUI\obj\Debug\net5.0-windows\View\GameTateti.g.cs
 C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\GUI\obj\Debug\net5.0-windows\View\Main.g.cs
 C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\GUI\obj\Debug\net5.0-windows\App.g.cs
 C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\GUI\obj\Debug\net5.0-windows\GUI_MarkupCompile.cache
 C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\GUI\obj\Debug\net5.0-windows\GUI_MarkupCompile.lref
 C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\GUI\obj\Debug\net5.0-windows\App.baml
-C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\GUI\obj\Debug\net5.0-windows\MainWindow.baml
 C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\GUI\obj\Debug\net5.0-windows\View\GameTateti.baml
 C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\GUI\obj\Debug\net5.0-windows\View\Main.baml
 C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\GUI\obj\Debug\net5.0-windows\GUI.g.resources
