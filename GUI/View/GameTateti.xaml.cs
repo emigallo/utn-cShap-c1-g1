@@ -45,41 +45,34 @@ namespace GUI.View
             }
             Button buttonSite = sender as Button;
             string site = buttonSite.Tag.ToString();
-            int NRow = int.Parse(site.Substring(0, 1));
-            int NCol = int.Parse(site.Substring(1));
-            File FileTurn = _game.UserTurn();
-            if (_game.AddFile(FileTurn, NRow, NCol))
+            int nRow = int.Parse(site.Substring(0, 1));
+            int nCol = int.Parse(site.Substring(1));
+            File fileTurn = _game.UserTurn();
+            if (_game.AddFile(fileTurn, nRow, nCol))
             {
-                buttonSite.Content = FileTurn.Type;
+                buttonSite.Content = fileTurn.Type;
                 if (_game.GetWinner() != null)
                 {
                     _gameFinish = true;
                     string Winner = "El ganador del juego es";
                     lblWin.Content = Winner;
-                    lblWinName.Content = _game.UserWinner(FileTurn);
+                    lblWinName.Content = _game.UserWinner(fileTurn);
                 }
-                else
-                {
+                else                
                     if (_game.GameTied())
                     {
                         _gameFinish = true;
                         lblTie.Content = "Hay un empate entre los jugadores";
-                    }
-                }
-            }
-            else
-            {
+                    }  
+                
+            }else
                 MessageBox.Show("Campo usado");
-            }
         }
-
-
-    
-    private void ButtonMainMenu_Click(object sender, RoutedEventArgs e)
-    {
-        Main x = new Main();
-        this.Close();
-        x.ShowDialog();
+        private void ButtonMainMenu_Click(object sender, RoutedEventArgs e)
+        {
+            Main x = new Main();
+            this.Close();
+            x.ShowDialog();
+        }
     }
-}
 }

@@ -11,7 +11,6 @@ namespace Tateti.Models
         private Board _board;
         private User _user1;
         private User _user2;
-
         public Game()
         {
             this._board = new Board();
@@ -30,7 +29,6 @@ namespace Tateti.Models
         {
             return this._user2;
         }
-
         public bool AddFile(File file, int NRow, int NCol)
         {
             return this._board.Add(file, NRow, NCol);
@@ -43,18 +41,14 @@ namespace Tateti.Models
         {
             _user2.Name = name;
         }
-
         public File UserTurn()
         {
             if ((this._board.GetTurn() % 2) == 1)
             {
                 return _user1.File;
-                //user 1 turno
-                //le envia la file
             }
             else
             {
-                //turno user 2
                 return _user2.File;
             }
         }

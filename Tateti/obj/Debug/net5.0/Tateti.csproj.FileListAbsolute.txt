@@ -46,15 +46,3 @@ I:\Trabajo\Codigo_Csharp\TatetiProject\Tateti\obj\Debug\net5.0\Tateti.csproj.Cor
 I:\Trabajo\Codigo_Csharp\TatetiProject\Tateti\obj\Debug\net5.0\Tateti.dll
 I:\Trabajo\Codigo_Csharp\TatetiProject\Tateti\obj\Debug\net5.0\ref\Tateti.dll
 I:\Trabajo\Codigo_Csharp\TatetiProject\Tateti\obj\Debug\net5.0\Tateti.pdb
-C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\Tateti\bin\Debug\net5.0\Tateti.deps.json
-C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\Tateti\bin\Debug\net5.0\Tateti.dll
-C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\Tateti\bin\Debug\net5.0\ref\Tateti.dll
-C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\Tateti\bin\Debug\net5.0\Tateti.pdb
-C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\Tateti\obj\Debug\net5.0\Tateti.csproj.AssemblyReference.cache
-C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\Tateti\obj\Debug\net5.0\Tateti.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\Tateti\obj\Debug\net5.0\Tateti.AssemblyInfoInputs.cache
-C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\Tateti\obj\Debug\net5.0\Tateti.AssemblyInfo.cs
-C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\Tateti\obj\Debug\net5.0\Tateti.csproj.CoreCompileInputs.cache
-C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\Tateti\obj\Debug\net5.0\Tateti.dll
-C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\Tateti\obj\Debug\net5.0\ref\Tateti.dll
-C:\Users\tomameri\OneDrive - NTT DATA EMEAL\Escritorio\Tateti\TatetiProject\Tateti\obj\Debug\net5.0\Tateti.pdb
